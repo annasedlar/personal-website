@@ -1,0 +1,62 @@
+nav li {
+  display: inline;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header .title {
+  margin-right: 10%;
+}
+
+.heading, .travel-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.heading-image {
+  max-height: 900px;
+  max-width: 500px;
+  border: 1px solid black;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.heading-image img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.heading-text {
+  color: white;
+  font-size: 40px;
+  text-emphasis: bold;
+  background-color: gray;
+  height: 200px;
+  width: 500px;
+  padding: 25px;
+  margin-left: -200px;
+}
+
+.travel-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.travel img {
+  /* max-height: 500px; */
+  max-width: 50%;
+  border: 1px solid black;
+}
+
+.travel hr {
+  width: 60%;
+}
+
+.travel h4 {
+  font-size: 20px;
+}
