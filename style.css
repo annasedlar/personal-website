@@ -79,3 +79,11 @@ nav li {
 .container {
   text-align: center;
 }
+
+a, a:visited{
+  color: black;
+}
+
+.social-icons a {
+  margin: 2%;
+}
