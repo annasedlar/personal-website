@@ -42,13 +42,17 @@ nav li {
   margin-left: -200px;
 }
 
+.interests-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .travel-wrapper {
-  width: 100%;
   text-align: center;
+
 }
 
 .travel img {
-  /* max-height: 500px; */
   max-width: 50%;
   border: 1px solid black;
 }
@@ -59,4 +63,19 @@ nav li {
 
 .travel h4 {
   font-size: 20px;
+}
+
+.tech-wrapper {
+  text-align: center;
+}
+
+
+.me-pic {
+  max-height: 500px;
+  border-radius: 50%;
+
+}
+
+.container {
+  text-align: center;
 }
