@@ -73,6 +73,7 @@ nav li {
 .me-pic {
   max-height: 500px;
   border-radius: 50%;
+  max-width: 100%;
 }
 
 .container {
