@@ -73,7 +73,6 @@ nav li {
 .me-pic {
   max-height: 500px;
   border-radius: 50%;
-
 }
 
 .container {
@@ -84,6 +83,14 @@ a, a:visited{
   color: black;
 }
 
+.social-icons {
+  margin: 5%;
+}
+
 .social-icons a {
-  margin: 2%;
+  margin-left: 2%;
+}
+
+.social-icons div {
+  display: inline;
 }
