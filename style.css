@@ -23,3 +23,7 @@ a, a:visited{
 .social-icons div {
   display: inline;
 }
+
+.projects img {
+  max-width: 100%;
+}
