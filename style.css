@@ -4,6 +4,11 @@
   max-width: 100%;
 }
 
+h1 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", Arial, sans-serif;
+  font-weight: 100;
+}
+
 .container {
   text-align: center;
 }
@@ -37,10 +42,19 @@ a, a:visited{
   display: inline;
 }
 
-.projects img {
+.projects-grid img {
   max-width: 100%;
+  border: 1px solid black;
 }
 
-.calculator-img {
+.projects-img {
   height: 300px;
+}
+
+
+.projects-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
