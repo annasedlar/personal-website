@@ -51,6 +51,10 @@ a, a:visited{
   height: 300px;
 }
 
+.blog img {
+  max-width: 100%;
+  width: 300px;
+}
 
 /* .projects-grid {
   display: flex;
