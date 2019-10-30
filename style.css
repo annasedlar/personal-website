@@ -20,7 +20,7 @@ h1 {
   justify-content: space-evenly;
 }
 
-.info-container img {
+.info-container img, .blog img{
   width: 300px;
   max-width: 100%;
   border: 1px solid black;
@@ -50,15 +50,3 @@ a, a:visited{
 .projects-img {
   height: 300px;
 }
-
-.blog img {
-  max-width: 100%;
-  width: 300px;
-}
-
-/* .projects-grid {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-} */
